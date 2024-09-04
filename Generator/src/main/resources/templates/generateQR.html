@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Generate QR Code</title>
+</head>
+<body>
+<h1>Generate QR Code</h1>
+<form action="/qrCode" method="get">
+    <label for="text">Text:</label><br>
+    <input type="text" id="text" name="text"><br><br>
+    <input type="submit" value="Generate QR Code">
+</form>
+</body>
+</html>
